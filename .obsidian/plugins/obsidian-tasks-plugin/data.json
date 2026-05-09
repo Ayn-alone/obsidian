@@ -1,0 +1,6 @@
+﻿{
+  "useFilenameAsScheduledDate": true,
+  "filenameAsDateFolders": [
+    "03-daily"
+  ]
+}

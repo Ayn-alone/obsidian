@@ -1,0 +1,6 @@
+{
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "heatmap-calendar-fix"
+  ]
+}

@@ -1,4 +1,4 @@
-# obsidian-life-template
+# Obsidian 配置模板
 
 这是一个 Obsidian「记录生活」模板包，包含每日记录、心情热力图、周复盘、月复盘和年度 Fox 模板。
 
@@ -15,8 +15,41 @@
 04-template/
   daily/
 .obsidian/
+  app.json
+  appearance.json
+  community-plugins.json
+  core-plugins.json
+  daily-notes.json
+  templates.json
+  types.json
+  plugins/
   snippets/
 ```
+
+## 已包含的配置
+
+这个仓库现在不只包含 CSS snippet，也包含一组可复用的 Obsidian 配置：
+
+- 核心插件开关：`.obsidian/core-plugins.json`
+- 社区插件启用清单：`.obsidian/community-plugins.json`
+- Daily Notes 路径和模板：`.obsidian/daily-notes.json`
+- 核心 Templates 插件目录：`.obsidian/templates.json`
+- Templater 配置：`.obsidian/plugins/templater-obsidian/data.json`
+- Calendar 周记配置：`.obsidian/plugins/calendar/data.json`
+- Dataview 配置：`.obsidian/plugins/dataview/data.json`
+- Tasks 配置：`.obsidian/plugins/obsidian-tasks-plugin/data.json`
+- QuickAdd 基础配置：`.obsidian/plugins/quickadd/data.json`
+- Todo 插件基础配置：`.obsidian/plugins/obsidian-plugin-todo/data.json`
+- 外观和 CSS snippet 开关：`.obsidian/appearance.json`
+
+没有包含：
+
+- 真实日记正文
+- 图片附件
+- workspace 布局缓存
+- 第三方插件本体代码
+
+第三方插件本体没有放进仓库，是因为公开分发别人的插件代码会涉及许可证、版本和安全问题。使用时先按下面列表安装插件，配置文件会自动接上。
 
 ## 需要安装的插件
 
