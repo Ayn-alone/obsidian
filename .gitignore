@@ -1,0 +1,9 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+03-daily/daily/*.md
+03-daily/assets/notion-import/
+node_modules/
+.DS_Store
+Thumbs.db

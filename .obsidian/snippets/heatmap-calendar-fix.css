@@ -1,0 +1,39 @@
+.heatmap-calendar-graph {
+  --heatmap-cell-size: 11px;
+  --heatmap-cell-gap: 3px;
+}
+
+.heatmap-calendar-days,
+.heatmap-calendar-boxes {
+  grid-template-rows: repeat(7, var(--heatmap-cell-size)) !important;
+  gap: var(--heatmap-cell-gap) !important;
+}
+
+.heatmap-calendar-boxes {
+  grid-template-columns: repeat(53, var(--heatmap-cell-size)) !important;
+  grid-auto-columns: var(--heatmap-cell-size) !important;
+}
+
+.heatmap-calendar-boxes li {
+  width: var(--heatmap-cell-size) !important;
+  height: var(--heatmap-cell-size) !important;
+  min-width: var(--heatmap-cell-size) !important;
+  min-height: var(--heatmap-cell-size) !important;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.heatmap-calendar-content,
+.heatmap-calendar-content .internal-link {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  color: transparent !important;
+  text-decoration: none !important;
+  font-size: 0;
+}
+
+.markdown-embed-title {
+  display: none;
+}
